@@ -42,10 +42,9 @@ html, body {
   justify-content: space-evenly;
   align-items: center;
   padding: 0 5%;
-  flex-shrink: 0; /* Ensures fixed height */
+  flex-shrink: 0;
 }
 
-/* Individual score/timer/hit sections */
 .elem {
   display: flex;
   align-items: center;
@@ -66,7 +65,6 @@ html, body {
   font-size: 1.1rem;
 }
 
-/* Bottom bubble area */
 #pbtm {
   flex: 1;
   padding: 25px;
@@ -75,7 +73,6 @@ html, body {
   gap: 15px;
   justify-content: center;
   align-items: center;
-  /* overflow-y: auto; */
 }
 
 /* Bubble design */
